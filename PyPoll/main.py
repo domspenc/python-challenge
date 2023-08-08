@@ -37,9 +37,7 @@ with open(csvpath, 'r') as csvfile:
            
     # calculating each candidate percentage of total votes
     Stockham_percent = (Stockham_votes/totalvotes)*100    
-
     Degette_percent = (Degette_votes/totalvotes)*100
-
     Doane_percent = (Doane_votes/totalvotes)*100
 
     # dictionary to link corresponding key (percent variables) to value (candidate name)
@@ -50,6 +48,7 @@ with open(csvpath, 'r') as csvfile:
     }
     # new variable to store max value and corresponding key from dictionary, to locate the winner!
     winner = (candidate_percent.get(max(candidate_percent)))
+
 
 
 output = f"""
@@ -64,6 +63,10 @@ Raymon Anthony Doane: %{Doane_percent:.3f} ({Doane_votes})
 Winner: {winner}
 """
 
+
 file = 'Analysis/output_file.txt'
 with open(file, 'w') as textfile:
     textfile.write(output)
+
+
+# ---------------------------------------------------------

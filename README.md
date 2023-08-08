@@ -3,13 +3,12 @@
 ### Logic
 <p>My logic was all over the place during this challenge.
 </br>
-I used AskBCS a few times and leaned heavily on my classmates to better
+I used AskBCS a few times and leaned heavily on my classmates to better understand the task. 
 </br>
-understand the task. I struggled to pseudocode each section but I put this
+I struggled to pseudocode each section but I put this down to lack of coding experience.
 </br>
-down to lack of coding experience. Now that I've completed it, I feel more
-</br>
-confident in being able to break things down little by little!</p>
+Now that I've completed it, I feel more confident in being able to break things down little by little!
+</p>
 
 <p>
 I deleted a load of extra test bits of code as per grading instructions, including:

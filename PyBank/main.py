@@ -41,6 +41,7 @@ with open(csvpath, "r") as csvfile:
             minprofit = change
             minprofit_month = rows[0]
 
+
 output = f"""
 Financial Analysis
 -----------------------------------------
@@ -50,7 +51,6 @@ Average Change: ${totalchange / monthscounter:.2f}
 Greatest Increase in Profits: {maxprofit_month} (${maxprofit})
 Greatest Decrease in Profits: {minprofit_month} (${minprofit})
 """
-#print(output)
 
 
 file = 'Analysis/output_file.txt'
@@ -59,9 +59,10 @@ with open(file, 'w') as textfile:
     textfile.write(output)
     #print(lines)
 
+
 # ---------------------------------------------------------
 
-#NOTES
 
+#ADDITIONAL NOTES
 #changeslist = [] # list of changes in profit/losses (didn't need in the end)
 #changeslist.append(rows[1]) # add values to the totalchanges list (also didn't need)
