@@ -67,6 +67,6 @@ Winner: {winner}
 file = 'Analysis/output_file.txt'
 with open(file, 'w') as textfile:
     textfile.write(output)
-
+    
 
 # ---------------------------------------------------------
