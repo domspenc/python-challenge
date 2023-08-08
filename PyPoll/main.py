@@ -56,9 +56,9 @@ Election Results
 ----------------------
 Total Votes: {totalvotes}
 ----------------------
-Charles Casper Stockham: %{Stockham_percent:.3f} ({Stockham_votes})
-Diana DeGette: %{Degette_percent:.3f} ({Degette_votes})
-Raymon Anthony Doane: %{Doane_percent:.3f} ({Doane_votes})
+Charles Casper Stockham: {Stockham_percent:.3f}% ({Stockham_votes})
+Diana DeGette: {Degette_percent:.3f}% ({Degette_votes})
+Raymon Anthony Doane: {Doane_percent:.3f}% ({Doane_votes})
 ----------------------
 Winner: {winner}
 """
